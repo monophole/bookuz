@@ -1,0 +1,124 @@
+@media screen and (max-width:1300px){
+    .box img{
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .books__box{
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .box img{
+        height: 280px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .books__box{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width:900px){
+    .navbar{
+        width: 90%;
+    }
+    .items i,
+    .items select{
+        padding-top: 10px;
+    }
+    .icon,
+    .items p{
+        display: none;
+    }
+    .lower__navbar{
+        width: 90%;
+    }
+    .hamburger{
+        display: block;
+    }
+    .lower__navbar__hamburger{
+        display: block;
+    }
+    .about{
+        display: none;
+    }
+    .banner{
+        width: 90%;
+        height: 350px;
+    }
+    .container{
+        width: 90%;
+    }
+    .books__lists{
+        padding: 40px 5%;
+
+    }
+}
+@media screen and (max-width:800px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .books__box{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .box img{
+        height: 330px;
+    }
+}
+
+@media screen and (max-width:670px){
+    .logo i,
+    .logo a{
+        display: none;
+    }
+    .banner{
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width:620px){
+    .books__box{
+        grid-template-columns: 1fr 1fr;
+    }
+    .box img{
+        height: 370px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+    .card{
+        height: 140px;
+        padding: 3%;
+    }
+}
+
+
+
+@media screen and (max-width:510px){
+    .box img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .enter .icon__word:nth-child(3){
+        display: none;
+    }
+    .enter .icon__word:nth-child(2){
+        display: none;
+    }
+    .banner{
+        height: 190px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .box img{
+        height: 260px;
+    }
+}
